@@ -13,12 +13,10 @@
     width: 64%;
     height: 500px;
     display: flex;
-    border: 2px solid green;
 }
 .car_card{
     width: 33.3%;
     height: 100%;
-    border: 2px solid yellow;
 }
 .sedans{
     background: #E28625;
@@ -84,4 +82,8 @@ p{
     justify-content: center;
     margin-top: 83px;
     margin-left: 36px;
+}
+.learn_more:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
 }
